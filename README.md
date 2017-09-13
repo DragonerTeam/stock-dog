@@ -19,7 +19,7 @@ http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quo
 
 http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20(%27AAPL%27)&format=json&diagnostics=true&env=store://datatables.org/alltableswithkeys
 
-2. add stock data
+2. add stock data watchlist.js
 
 ```
       var existingCompany = _.find($scope.companies, function (s) {
