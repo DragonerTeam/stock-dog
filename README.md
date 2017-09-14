@@ -37,3 +37,16 @@ http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quo
 ```
 
 3. current can not show chart in dashboard Google charts --dashboard.js
+
+4. get Provider or injector 
+```
+angular.module("stockDogApp",[]).provider()
+
+angular.element(document.body).injector().get("WatchlistService")
+
+
+```
+
+http://www.cnblogs.com/whitewolf/archive/2013/03/27/2983806.html
+http://www.cnblogs.com/ys-ys/tag/AngularJs/
+http://www.cnblogs.com/xing901022/p/4931455.html
